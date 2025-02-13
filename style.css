@@ -1,0 +1,25 @@
+body {
+  background-color: #27445D;
+  color: #EFE9D5;
+}
+
+.quality {
+  color: #71BBB2;
+}
+
+.focus {
+  color: #FFF2AF;
+}
+
+.code {
+  color: #FBA518;
+}
+
+h2 {
+  color: #B2A5FF;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+}
