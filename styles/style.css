@@ -11,10 +11,27 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+  display: flex;
+  gap: 88px;
+}
+
+.header__menu__link {
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #a1e3f9;
+  text-decoration: none;
+}
+
 .presentation {
   display: flex;
   align-items: center;
-  margin: 10% 15%;
+  padding: 5% 15%;
   justify-content: space-between;
 }
 
@@ -22,11 +39,11 @@ body {
   width: 615px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 
 .presentation__content__title {
-  font-size: 30px;
+  font-size: 27px;
   font-family: "Krona One", serif;
   text-align: center;
 }
@@ -37,7 +54,7 @@ body {
 
 .presentation__content__describe {
   background-color: #497d74;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", serif;
   text-align: justify;
 }
@@ -53,7 +70,7 @@ body {
 .presentation__content__links__contact {
   color: #f5ecd5;
   font-family: "Krona One", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
@@ -63,13 +80,13 @@ body {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 19px;
 }
 
 .presentation__content__links__social__media {
   width: 378px;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   border-radius: 8px;
   font-family: "Montserrat", serif;
   font-size: 24px;
@@ -93,10 +110,47 @@ body {
 
 .footer__text {
   background-color: #a1e3f9;
-  padding: 24px;
+  padding: 10px;
   color: #000000;
   text-align: center;
   font-family: "Montserrat", serif;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Estilos pestaña about*/
+
+.presentation__content__describe__profile {
+  font-size: 18px;
+  font-family: "Montserrat", serif;
+  text-align: justify;
+}
+
+.presentation__content__describe__ul {
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.presentation__content__languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.presentation__content__languages__box {
+  border: 2px solid #000000;
+  background-color: #fba518;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  color: #27445d;
+  text-align: center;
+  width: calc(20% - 10px);
+  box-sizing: border-box;
 }
