@@ -67,9 +67,7 @@ body {
   gap: 32px;
 }
 
-.presentation__content__links__instagram,
-.presentation__content__links__github,
-.presentation__content__links__linkedin {
+.presentation__content__links__social__media {
   width: 378px;
   text-align: center;
   padding: 21.5px 0;
@@ -80,6 +78,13 @@ body {
   text-decoration: none;
   color: #f6f6f6;
   border: 2px solid #a1e3f9;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.presentation__content__links__social__media:hover {
+  background-color: #272727;
 }
 
 .presentation__photo {
