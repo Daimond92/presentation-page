@@ -8,26 +8,27 @@
 body {
   background-color: #27445d;
   color: #efe9d5;
-  height: 80vh;
+  height: 75vh;
   box-sizing: border-box;
 }
 
 .presentation {
   display: flex;
   align-items: center;
-  margin: 15%;
+  margin: 10% 15%;
   justify-content: space-between;
-  margin-top: 50px;
 }
 
 .presentation__content {
   width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .presentation__content__title {
   font-size: 30px;
   font-family: "Krona One", serif;
-  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -36,9 +37,6 @@ body {
 }
 
 .presentation__content__describe {
-  padding: 10px;
-  margin: 10px;
-  border: 10px;
   background-color: #497d74;
   font-size: 20px;
   font-family: "Montserrat", serif;
@@ -58,8 +56,6 @@ body {
   font-size: 25px;
   font-family: "Krona One", serif;
   text-align: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
 }
 
 .presentation__content__links {
