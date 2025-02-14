@@ -8,7 +8,6 @@
 body {
   background-color: #27445d;
   color: #efe9d5;
-  height: 75vh;
   box-sizing: border-box;
 }
 
@@ -70,7 +69,7 @@ body {
 .presentation__content__links__social__media {
   width: 378px;
   text-align: center;
-  padding: 21.5px 0;
+  padding: 15px 0;
   border-radius: 8px;
   font-family: "Montserrat", serif;
   font-size: 24px;
@@ -90,4 +89,14 @@ body {
 .presentation__photo {
   width: 400px;
   height: 400px;
+}
+
+.footer__text {
+  background-color: #a1e3f9;
+  padding: 24px;
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+  font-weight: 400;
 }
