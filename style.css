@@ -1,22 +1,41 @@
-body {
-  background-color: #27445D;
-  color: #EFE9D5;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.quality {
-  color: #71BBB2;
+body {
+  background-color: #27445d;
+  color: #efe9d5;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+}
+
+.featured-title {
+  color: #71bbb2;
 }
 
 .focus {
-  color: #FFF2AF;
+  color: #fff2af;
 }
 
 .code {
-  color: #FBA518;
+  color: #fba518;
 }
 
-h2 {
-  color: #B2A5FF;
+.describe {
+  padding: 50px;
+  margin: 50px;
+  border: 30px;
+  background-color: #497d74;
+}
+
+.contact {
+  color: #b2a5ff;
 }
 
 .photo {
