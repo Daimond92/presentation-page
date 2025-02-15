@@ -40,7 +40,7 @@ body {
 
 .header__menu__link {
   font-family: var(--font-monserrat);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--third-color);
   text-decoration: none;
@@ -61,7 +61,7 @@ body {
 }
 
 .presentation__content__title {
-  font-size: 27px;
+  font-size: 1.6rem;
   font-family: var(--font-Krona);
   text-align: center;
 }
@@ -72,7 +72,7 @@ body {
 
 .presentation__content__describe {
   background-color: var(--fifth-color);
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: var(--font-monserrat);
   text-align: justify;
 }
@@ -88,7 +88,7 @@ body {
 .presentation__content__links__contact {
   color: var(--second-color);
   font-family: var(--font-Krona);
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
   text-align: center;
 }
@@ -107,7 +107,7 @@ body {
   padding: 10px 0;
   border-radius: 8px;
   font-family: var(--font-monserrat);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--second-color);
@@ -132,26 +132,33 @@ body {
   color: var(--eighth-color);
   text-align: center;
   font-family: var(--font-monserrat);
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 /* Estilos pestaña about*/
 
-.presentation__content__describe__profile {
-  font-size: 17px;
+.presentation__content__about {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.presentation__content__about__describe__profile {
+  font-size: 1.1rem;
   font-family: var(--font-monserrat);
   text-align: justify;
   color: var(--sixth-color);
 }
 
-.presentation__content__describe__profile_profession {
+.presentation__content__about__describe__profile_profession {
   color: var(--ninth-color);
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
-.presentation__content__describe__ul {
-  font-size: 16px;
+.presentation__content__about__describe__ul {
+  font-size: 1rem;
   font-family: var(--font-monserrat);
   text-align: justify;
   display: flex;
@@ -160,7 +167,7 @@ body {
   color: var(--third-color);
 }
 
-.presentation__content__languages {
+.presentation__content__about__languages {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -168,10 +175,10 @@ body {
   width: 100%;
 }
 
-.presentation__content__languages__box {
+.presentation__content__about__languages__box {
   border: 2px solid var(--eighth-color);
   background-color: var(--seventh-color);
-  font-size: 16px;
+  font-size: 1rem;
   font-family: var(--font-monserrat);
   font-weight: 600;
   color: var(--first-color);
