@@ -139,7 +139,7 @@ body {
 /* Estilos pestaña about*/
 
 .presentation__content__about {
-  width: 615px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -195,7 +195,17 @@ body {
   .header__menu {
     justify-content: center;
   }
+
   .presentation {
     flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .presentation__content {
+    width: auto;
+  }
+
+  .presentation__content__about {
+    width: auto;
   }
 }
